@@ -1,0 +1,76 @@
+.card-container {
+  margin: 2% 0;
+  width: 100%;
+}
+
+.card-heading {
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+.active {
+  font-family: 'Courier New', Courier, monospace !important;
+  color: #1409af !important;
+  font-weight: bolder !important;
+}
+
+.grid-container {
+  margin-top: 0.01vh !important;
+}
+
+.card-card {
+  margin: 2% 2% !important;
+}
+
+.card-content {
+  margin: 1% 1% !important;
+}
+
+.card-infected {
+  background-color: rgba(250, 100, 212, 0.7) !important;
+  color: white !important;
+}
+
+.card-recovered {
+  background-color: rgba(78, 247, 168, 0.5) !important;
+  color: white !important;
+}
+
+.card-deaths {
+  background-color: rgba(99, 101, 122, 0.7) !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .card-card {
+    margin: 2% 2% !important;
+  }
+
+  .card-heading {
+    font-size: 3vw !important;
+  }
+
+  .card-data {
+    font-size: 4vw !important;
+  }
+  .card-delta {
+    font-size: 3vw !important;
+  }
+
+  .active {
+    font-size: 4vw !important;
+  }
+
+  .card-contentrandom {
+    padding-bottom: 0px !important;
+    padding: 0px !important;
+    margin: 0% 0% !important;
+  }
+
+  .MuiCardContent-root:last-child {
+    padding-bottom: 0px !important;
+  }
+
+  .MuiCardContent-root {
+    padding: 0px !important;
+  }
+}
